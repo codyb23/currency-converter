@@ -30,27 +30,26 @@ function App() {
   }
 
   return (
-    <main>
+    <body>
       <header class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4">Currency Rates</h1>
           <p class="lead">{currencyDetails.base}</p>
         </div>
       </header>
-      <body>
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <span class="input-group-text">
+      <main>
+        <div className="inputBox">
+          <article>
+            <strong>
+              {' '}
               Base Currency Value: {currencyValue}-{currencyDetails.base}
-            </span>
-          </div>
-          <textarea
-            class="form-control"
-            aria-label="With textarea"
+            </strong>
+          </article>
+          <input
             onChange={(event) =>
               handleChangingCurrencyValue(event.target.value)
             }
-          ></textarea>
+          ></input>
         </div>
         <div className="currencyItems">
           <section>
@@ -169,8 +168,8 @@ function App() {
             </ul>
           </section>
         </div>
-      </body>
-    </main>
+      </main>
+    </body>
   )
 }
 
