@@ -41,7 +41,7 @@ function App() {
         <div class="input-group">
           <div class="input-group-prepend">
             <span class="input-group-text">
-              Base Currency Value {currencyValue}:{currencyDetails.base}
+              Base Currency Value: {currencyValue}-{currencyDetails.base}
             </span>
           </div>
           <textarea
@@ -56,10 +56,9 @@ function App() {
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
               <h5>GBP</h5> {currencyRates.GBP * currencyValue}
-              {currencyValue}
             </li>
             <li class="list-group-item">
-              <h5>HKD</h5> {currencyRates.HKD}
+              <h5>HKD</h5> {currencyRates.HKD * currencyValue}
             </li>
           </ul>
         </section>
