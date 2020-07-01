@@ -41,7 +41,7 @@ function App() {
         <div class="input-group">
           <div class="input-group-prepend">
             <span class="input-group-text">
-              Base Currency Value: {currencyDetails.base}
+              Base Currency Value {currencyValue}:{currencyDetails.base}
             </span>
           </div>
           <textarea
@@ -61,9 +61,6 @@ function App() {
             <li class="list-group-item">
               <h5>HKD</h5> {currencyRates.HKD}
             </li>
-            <li class="list-group-item">Morbi leo risus</li>
-            <li class="list-group-item">Porta ac consectetur ac</li>
-            <li class="list-group-item">Vestibulum at eros</li>
           </ul>
         </section>
       </body>
