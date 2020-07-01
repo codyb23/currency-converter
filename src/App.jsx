@@ -4,7 +4,7 @@ import HelloWorld from './components/HelloWorld'
 function App() {
   const [currencyDetails, setCurrencyDetails] = useState({})
   const [currencyRates, setCurrencyRates] = useState({})
-  const [currencyValue, setCurrencyValue] = useState()
+  const [currencyValue, setCurrencyValue] = useState(1)
 
   const loadCurrencyDetailsFromApi = () => {
     const url = 'https://api.ratesapi.io/api/latest?base=USD'
@@ -19,9 +19,14 @@ function App() {
 
   useEffect(loadCurrencyDetailsFromApi, [])
 
-  handleChangingCurrencyValue = (event) => {
-    const inputFieldThatIsChanging = event.target
-    const valueOfThatInputField = inputFieldThatIsChanging.value
+  const handleChangingCurrencyValue = (event) => {
+    if (currencyValue === '') {
+      setCurrencyValue(1)
+    } else {
+      setCurrencyValue(event)
+    }
+
+    console.log(currencyValue)
   }
 
   return (
@@ -35,19 +40,23 @@ function App() {
       <body>
         <div class="input-group">
           <div class="input-group-prepend">
-            <span
-              class="input-group-text"
-              onChange={handleChangingCurrencyValue}
-            >
+            <span class="input-group-text">
               Base Currency Value: {currencyDetails.base}
             </span>
           </div>
-          <textarea class="form-control" aria-label="With textarea"></textarea>
+          <textarea
+            class="form-control"
+            aria-label="With textarea"
+            onChange={(event) =>
+              handleChangingCurrencyValue(event.target.value)
+            }
+          ></textarea>
         </div>
         <section>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
-              <h5>GBP</h5> {currencyRates.GBP}
+              <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              {currencyValue}
             </li>
             <li class="list-group-item">
               <h5>HKD</h5> {currencyRates.HKD}
