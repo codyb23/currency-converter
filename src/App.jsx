@@ -37,23 +37,23 @@ function App() {
           <p class="lead">{currencyDetails.base}</p>
         </div>
       </header>
+      <div className="inputBox">
+        <article>
+          <strong>
+            Base Currency Value: {currencyValue}-{currencyDetails.base}
+          </strong>
+        </article>
+        <input
+          onChange={(event) => handleChangingCurrencyValue(event.target.value)}
+        ></input>
+      </div>
       <main>
-        <div className="inputBox">
-          <article>
-            <strong>
-              {' '}
-              Base Currency Value: {currencyValue}-{currencyDetails.base}
-            </strong>
-          </article>
-          <input
-            onChange={(event) =>
-              handleChangingCurrencyValue(event.target.value)
-            }
-          ></input>
-        </div>
         <div className="currencyItems">
           <section>
             <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <h5>USD</h5> {currencyRates.USD * currencyValue}
+              </li>
               <li class="list-group-item">
                 <h5>GBP</h5> {currencyRates.GBP * currencyValue}
               </li>
@@ -77,9 +77,6 @@ function App() {
               </li>
               <li class="list-group-item">
                 <h5>MXN</h5> {currencyRates.MXN * currencyValue}
-              </li>
-              <li class="list-group-item">
-                <h5>CZK</h5> {currencyRates.CZK * currencyValue}
               </li>
             </ul>
           </section>
@@ -109,9 +106,6 @@ function App() {
               <li class="list-group-item">
                 <h5>BGN</h5> {currencyRates.BGN * currencyValue}
               </li>
-              <li class="list-group-item">
-                <h5>PHP</h5> {currencyRates.PHP * currencyValue}
-              </li>
             </ul>
           </section>
           <section>
@@ -140,9 +134,6 @@ function App() {
               <li class="list-group-item">
                 <h5>TRY</h5> {currencyRates.TRY * currencyValue}
               </li>
-              <li class="list-group-item">
-                <h5>JPY</h5> {currencyRates.JPY * currencyValue}
-              </li>
             </ul>
           </section>
           <section>
@@ -154,7 +145,7 @@ function App() {
                 <h5>KRW</h5> {currencyRates.KRW * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>USD</h5> {currencyRates.USD * currencyValue}
+                <h5>JPY</h5> {currencyRates.JPY * currencyValue}
               </li>
               <li class="list-group-item">
                 <h5>AUD</h5> {currencyRates.AUD * currencyValue}
@@ -164,6 +155,12 @@ function App() {
               </li>
               <li class="list-group-item">
                 <h5>SEK</h5> {currencyRates.SEK * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>CZK</h5> {currencyRates.CZK * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>PHP</h5> {currencyRates.PHP * currencyValue}
               </li>
             </ul>
           </section>
