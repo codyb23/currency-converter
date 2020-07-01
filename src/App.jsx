@@ -37,6 +37,7 @@ function App() {
           <p class="lead">{currencyDetails.base}</p>
         </div>
       </header>
+      <h3 className="currencyDate">{currencyDetails.date}</h3>
       <div className="inputBox">
         <article>
           <strong>
