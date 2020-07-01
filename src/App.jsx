@@ -96,84 +96,75 @@ function App() {
                 <h5>HRK</h5> {currencyRates.HRK * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>EUR</h5> {currencyRates.EUR * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>MYR</h5> {currencyRates.MYR * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>NOK</h5> {currencyRates.NOK * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>CNY</h5> {currencyRates.CNY * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>BGN</h5> {currencyRates.BGN * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
-              </li>
-            </ul>
-          </section>
-          <section>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
-              </li>
-              <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
-              </li>
-              <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
-              </li>
-              <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
-              </li>
-              <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
-              </li>
-              <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
-              </li>
-              <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
-              </li>
-              <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
-              </li>
-              <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>PHP</h5> {currencyRates.PHP * currencyValue}
               </li>
             </ul>
           </section>
           <section>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>PLN</h5> {currencyRates.PLN * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>ZAR</h5> {currencyRates.ZAR * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>CAD</h5> {currencyRates.CAD * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>ISK</h5> {currencyRates.ISK * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>BRL</h5> {currencyRates.BRL * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>RON</h5> {currencyRates.RON * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>NZD</h5> {currencyRates.NZD * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>TRY</h5> {currencyRates.TRY * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>JPY</h5> {currencyRates.JPY * currencyValue}
+              </li>
+            </ul>
+          </section>
+          <section>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <h5>RUB</h5> {currencyRates.RUB * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>KRW</h5> {currencyRates.KRW * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>USD</h5> {currencyRates.USD * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>AUD</h5> {currencyRates.AUD * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>HUF</h5> {currencyRates.HUF * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>SEK</h5> {currencyRates.SEK * currencyValue}
               </li>
             </ul>
           </section>
