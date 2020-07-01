@@ -20,7 +20,7 @@ function App() {
   useEffect(loadCurrencyDetailsFromApi, [])
 
   const handleChangingCurrencyValue = (event) => {
-    if (currencyValue === '') {
+    if (event === '') {
       setCurrencyValue(1)
     } else {
       setCurrencyValue(event)
