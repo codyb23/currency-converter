@@ -52,16 +52,132 @@ function App() {
             }
           ></textarea>
         </div>
-        <section>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              <h5>GBP</h5> {currencyRates.GBP * currencyValue}
-            </li>
-            <li class="list-group-item">
-              <h5>HKD</h5> {currencyRates.HKD * currencyValue}
-            </li>
-          </ul>
-        </section>
+        <div className="currencyItems">
+          <section>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>HKD</h5> {currencyRates.HKD * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+            </ul>
+          </section>
+          <section>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+            </ul>
+          </section>
+          <section>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+            </ul>
+          </section>
+          <section>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+              <li class="list-group-item">
+                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+              </li>
+            </ul>
+          </section>
+        </div>
       </body>
     </main>
   )
