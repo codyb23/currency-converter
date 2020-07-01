@@ -4,6 +4,7 @@ import HelloWorld from './components/HelloWorld'
 function App() {
   const [currencyDetails, setCurrencyDetails] = useState({})
   const [currencyRates, setCurrencyRates] = useState({})
+  const [currencyValue, setCurrencyValue] = useState()
 
   const loadCurrencyDetailsFromApi = () => {
     const url = 'https://api.ratesapi.io/api/latest?base=USD'
@@ -18,6 +19,11 @@ function App() {
 
   useEffect(loadCurrencyDetailsFromApi, [])
 
+  handleChangingCurrencyValue = (event) => {
+    const inputFieldThatIsChanging = event.target
+    const valueOfThatInputField = inputFieldThatIsChanging.value
+  }
+
   return (
     <main>
       <header class="jumbotron jumbotron-fluid">
@@ -29,7 +35,10 @@ function App() {
       <body>
         <div class="input-group">
           <div class="input-group-prepend">
-            <span class="input-group-text">
+            <span
+              class="input-group-text"
+              onChange={handleChangingCurrencyValue}
+            >
               Base Currency Value: {currencyDetails.base}
             </span>
           </div>
