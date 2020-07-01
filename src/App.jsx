@@ -62,38 +62,38 @@ function App() {
                 <h5>HKD</h5> {currencyRates.HKD * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>IDR</h5> {currencyRates.IDR * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>ILS</h5> {currencyRates.ILS * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>DKK</h5> {currencyRates.DKK * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>INR</h5> {currencyRates.INR * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>CHF</h5> {currencyRates.CHF * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>MXN</h5> {currencyRates.MXN * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>CZK</h5> {currencyRates.CZK * currencyValue}
               </li>
             </ul>
           </section>
           <section>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>SGD</h5> {currencyRates.SGD * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>THB</h5> {currencyRates.THB * currencyValue}
               </li>
               <li class="list-group-item">
-                <h5>GBP</h5> {currencyRates.GBP * currencyValue}
+                <h5>HRK</h5> {currencyRates.HRK * currencyValue}
               </li>
               <li class="list-group-item">
                 <h5>GBP</h5> {currencyRates.GBP * currencyValue}
